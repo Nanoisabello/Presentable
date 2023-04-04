@@ -1,0 +1,14 @@
+{% extends "PueblosTapados/base.html" %}
+
+{%block titulo%} Listado de Pueblos {%endblock%}
+
+{%block listado%}
+    <ul>
+        {% for tarea in tareas %}
+             <li><b>{{Pueblo}}</b></li>
+        
+        {% endfor %}
+    </ul>
+   
+   
+{% endblock %}
